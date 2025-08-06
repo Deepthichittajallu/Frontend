@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(45, 42, 42);
+}
+.con{
+    width:400px;
+    height:400px;
+    background-color: black;
+    position: absolute;
+    top:230px;
+    left:220px;
+    box-shadow:0px 0px 10px 10px rgb(6, 95, 81);
+    border-radius: 3%;
+}
+.b1
+{
+    width:300px;
+    height:40px;
+    position: absolute;
+    top:60px;
+    left:40px;
+    color:white;
+    background-color: black;
+    box-shadow:0px 0px 15px 5px rgb(6, 95, 81);
+    border:1px solid black;
+    border-radius: 3%;
+
+}
+.b1::placeholder
+{
+    color:rgb(6, 95, 81);
+    position: absolute;
+    left:12px;
+}
+.b2{
+    width:300px;
+    height:40px;
+    position: absolute;
+    top:140px;
+    left:40px;
+    color:white;
+    background-color: black;
+    box-shadow:0px 0px 15px 5px rgb(6, 95, 81);
+    border:1px solid black;
+    border-radius: 3%;
+}
+.b2::placeholder
+{
+    color:rgb(6, 95, 81);
+    position: absolute;
+    left:12px;
+}
+.b3{
+    width:300px;
+    height:40px;
+    position: absolute;
+    top:220px;
+    left:40px;
+    color:white;
+    background-color: black;
+    box-shadow:0px 0px 15px 5px rgb(6, 95, 81);
+    border:1px solid black;
+    border-radius: 3%;
+}
+.b3::placeholder
+{
+    color:rgb(6, 95, 81);
+    position: absolute;
+    left:12px;
+}
+.b4{
+    width:100px;
+    height:40px;
+    position:absolute;
+    top:310px;
+    right:155px;
+    background-color: black;
+    color:white;
+    box-shadow:0px 0px 15px 5px rgb(6, 95, 81);
+    border:1px solid black;
+    border-radius: 3%;
+    font-size: 16px;
+}
+.h1{
+    width:130px;
+    height:30px;
+    background-color: rgb(45, 42, 42);
+    position: absolute;
+    top:180px;
+    left:290px;
+    border:1px solid rgb(45, 42, 42);
+    box-shadow: 0px 0px 3px 3px rgb(6, 95, 81);
+    border-radius: 3%;
+    transition: background-color 0.3s ease;
+    
+}
+.h1:hover {
+    background-color: rgb(6, 95, 81); 
+    color: white;
+}
+.h1::placeholder{
+    color:white;
+    text-align: center;
+    font-size: 17px;
+}
+.h2{
+    width:130px;
+    height:30px;
+    background-color: rgb(45, 42, 42);
+    position: absolute;
+    top:180px;
+    left:440px;
+    border:1px solid rgb(45, 42, 42);
+    box-shadow: 0px 0px 3px 3px rgb(6, 95, 81);
+    border-radius: 3%;
+    transition: background-color 0.3s ease;
+}
+.h2:hover {
+    background-color: rgb(6, 95, 81); 
+    color: white;
+}
+.h2::placeholder{
+    color:white;
+    text-align: center;
+    font-size: 17px;
+}
+ 
+/* .dancing-script-w {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+} */

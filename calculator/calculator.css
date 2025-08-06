@@ -1,0 +1,340 @@
+body{
+    background-color: #ff9f1c;
+}
+.body{
+    width:330px;
+    height:420px;
+    background-color:#ffffff;
+    border-radius: 10%;
+    position: absolute;
+    top:120px;
+    left:200px;
+    box-shadow: 0px 10px 5px #ffffff;
+}
+.screen{
+    width:280px;
+    height:100px;
+    background-color:#353535;
+    position: absolute;
+    top:45px;
+    left:25px;
+    border-radius: 15%;
+    box-shadow: 0px 0px 5px #353535;
+}
+.b1{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #8a817c;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:140px;
+    left:13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b1:hover{
+    background-color: #716966;
+}
+
+.b2{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #8a817c;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:140px;
+    left:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b2 .s2{
+    transform: translateY(-3px);
+    display: inline-block;
+}
+.b2:hover{
+    background-color: #716966;
+}
+
+.b3{
+    box-shadow: 0px 0px 4px #8a817c;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #8a817c;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:140px;
+    left:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b3:hover{
+    background-color: #716966;
+}
+.b3 .s3{
+    transform: translateY(-2px);
+    display: inline-block;
+}
+.b4{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #8a817c;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:140px;
+    left:215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b4:hover{
+    background-color: #716966;
+}
+.b4 .s4{
+    transform: translateY(-3px);
+    display: inline-block;
+}
+.d1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top:19px;
+}
+.d2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top:30px;
+}
+.b5{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #8a817c;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:200px;
+    left:13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b5:hover{
+    background-color: #716966;
+}
+.b6{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #8a817c;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:200px;
+    left:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b6:hover{
+    background-color: #716966;
+}
+.b7{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #8a817c;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:200px;
+    left:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b7:hover{
+    background-color: #716966;
+}
+.b8{
+    width: 50px;
+    height:170px;
+    background-color: #ff9f1c;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+    top:200px;
+    left:220px;
+    color: white;
+     font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b8:hover{
+    background-color:#f7a739;
+}
+.b3 .s3{
+    transform: translateY(-4px);
+    display: inline-block;
+}
+.b9{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #8a817c;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:260px;
+    left:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b9:hover{
+    background-color: #716966;
+}
+.b10{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #8a817c;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:260px;
+    left:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b10:hover{
+    background-color: #716966;
+}
+.b11{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #8a817c;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:260px;
+    left:13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b11:hover{
+    background-color: #716966;
+}
+.b12{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #8a817c;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:320px;
+    left:13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b12:hover{
+    background-color: #716966;
+}
+.b13{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #8a817c;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:320px;
+    left:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b13:hover{
+    background-color: #716966;
+}
+.b14{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #8a817c;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:320px;
+    left:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px #8a817c;
+}
+.b14:hover{
+    background-color: #716966;
+}
+.ca{
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 700;
+    right:5px;
+    top:10px;
+}
+.cb{
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 700;
+    right:5px;
+    top:45px;
+}

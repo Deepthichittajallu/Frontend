@@ -1,0 +1,388 @@
+.head{
+    width:150px;
+    height: 150px;
+    background-color:bisque;
+    border-radius: 50%;
+    position: absolute;
+    top:100px;
+    right:300px;
+    z-index: 5;
+}
+.e1{
+    width:15px;
+    height:20px;
+    border-radius: 50%;
+    background-color:white;
+    position: absolute;
+    top:50px;
+    right:100px;
+}
+.e2{
+    width:15px;
+    height:20px;
+    border-radius: 50%;
+    background-color:white;
+    position: absolute;
+    top:50px;
+    right:30px;
+}
+.b1{
+    width:12px;
+    height:10px;
+    border-radius: 50%;
+    background-color: black;
+    position:absolute;
+    top:10px;
+    right:3px;
+}
+.b2{
+    width:12px;
+    height:10px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top:10px;
+    right:1px;
+}
+.hair{
+    width:150px;
+    height:80px;
+    border-radius:50%;
+    background-color: black;
+    position: absolute;
+    top:85px;
+    right:300px;
+    box-shadow: 0px 0px 4px 5px black;
+}
+.Nose{
+    width:5px;
+    height:12px;
+    border-radius: 30%;
+    background-color: rgb(137, 97, 48);
+    position: absolute;
+    top:180px;
+    left:390px;
+    z-index: 9;
+}
+.Mouth{
+    width:40px;
+    height: 11px;
+    background-color: rgba(172, 33, 33, 0.84);
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    bottom:509px;
+    left:372px;
+    z-index: 9;
+}
+.Neck{
+    width:50px;
+    height:50px;
+    background-color: bisque;
+    position: absolute;
+    top:230px;
+    left:365px;
+    /* border: 1px solid rgb(216, 55, 55); */
+}
+.body
+{
+    width: 130px;
+    height: 140px;
+    background-color: blue;
+    border-radius: 10%;
+    position: absolute;
+    top:270px;
+    left:325px;
+    box-shadow: 0px 0px 4px 5px blue;
+}
+.line{
+    width:2px;
+    height:140px;
+    background-color: brown;
+    position:absolute;
+    top:0px;
+    left:60px;
+}
+.line1{
+    width:2px;
+    height:140px;
+    background-color: brown;
+    position:absolute;
+    top:0px;
+    left:64px;
+}
+.pocket{
+    width:20px;
+    height:25px;
+    background-color: brown;
+    position:absolute;
+    top:28px;
+    left:94px;
+    border-radius: 5%;;
+}
+.short{
+    width:130px;
+    height:60px;
+    background-color: brown;
+    border-radius: 10%;
+    position: absolute;
+    top:410px;
+    left:325px;
+    box-shadow: 0px 0px 4px 5px brown;
+}
+.l1{
+    width:3px;
+    height:60px;
+    background-color: black;
+    position:absolute;
+    /* left:487px; */
+    right:65px;
+}
+.l2{
+    width:130px;
+    height:5px;
+    background-color: black;
+}
+.leg1
+{
+    width: 20px;
+    height:100px;
+    background-color: bisque;
+    position: absolute;
+    top:60px;
+    left:19px;
+}
+.leg2
+{
+    width: 20px;
+    height:100px;
+    background-color: bisque;
+    position: absolute;
+    top:60px;
+    left:79px;
+}
+.shoe1
+{
+    width:40px;
+    height:40px;
+    background-color: brown;
+    position: absolute;
+    bottom:0px;
+    right:2px;
+    border-radius:  50% 0 0 0;
+    box-shadow: 0px 0px 4px 5px brown;
+}
+.shoe2
+{
+    width:40px;
+    height:40px;
+    background-color: brown;
+    position: absolute;
+    bottom:0px;
+    right:2px;
+    border-radius:  50% 0 0 0;
+    box-shadow: 0px 0px 4px 5px brown;
+}
+.hand1
+{
+    width:50px;
+    height:40px;
+    background-color: blue;
+    position: absolute;
+    right:0px;
+    top:2px;
+    left:-45px;
+    box-shadow: 0px 0px 4px 5px blue;
+}
+.hand2
+{
+    width:50px;
+    height:40px;
+    background-color: blue;
+    position: absolute;
+    top:2px;
+    left:125px;
+    box-shadow: 0px 0px 4px 5px blue;
+}
+.h1{
+    width:100px;
+    height:20px;
+    background-color: bisque;
+    position:absolute;
+    top:12px;
+    right:50px;
+}
+.h2{
+    width:100px;
+    height:20px;
+    background-color: bisque;
+    position:absolute;
+    top:12px;
+    right:-100px;
+}
+.p1
+{
+    width:30px;
+    height:30px;
+    border-radius: 4dvb;
+    background-color: rgb(214, 145, 61);
+    position: absolute;
+    top:-2px;
+    left:-16px;
+    
+}
+.p2
+{
+    width:30px;
+    height:30px;
+    border-radius: 40%;
+    background-color: rgb(214, 145, 61);
+    position: absolute;
+    top:-2px;
+    right:-16px;
+    
+}
+.f1
+{
+    width:15px;
+    height:5px;
+    background-color: bisque;
+    position: absolute;
+    border-radius: 2px;
+
+}
+.f2
+{
+    width:30px;
+    height:5px;
+    background-color: bisque;
+    position: absolute;
+    border-radius: 2px;
+    top:6px;
+    right:15px;
+
+}
+.f3
+{
+    width:40px;
+    height:5px;
+    background-color: bisque;
+    position: absolute;
+    border-radius: 2px;
+    top:12px;
+    right:16px;
+
+}
+.f4
+{
+    width:35px;
+    height:5px;
+    background-color: bisque;
+    position: absolute;
+    border-radius: 2px;
+    top:19px;
+    right:16px;
+
+}
+.f5
+{
+    width:10px;
+    height:5px;
+    background-color: bisque;
+    position: absolute;
+    border-radius: 2px;
+    top:25px;
+
+}
+.fi1
+{
+    width:15px;
+    height:5px;
+    background-color: bisque;
+    position: absolute;
+    border-radius: 2px;
+    right:2px;
+
+}
+.fi2
+{
+    width:30px;
+    height:5px;
+    background-color: bisque;
+    position: absolute;
+    border-radius: 2px;
+    top:6px;
+    right:-15px;
+
+}
+.fi3
+{
+    width:40px;
+    height:5px;
+    background-color: bisque;
+    position: absolute;
+    border-radius: 2px;
+    top:12px;
+    right:-19px;
+
+}
+.fi4
+{
+    width:35px;
+    height:5px;
+    background-color: bisque;
+    position: absolute;
+    border-radius: 2px;
+    top:19px;
+    right:-16px;
+
+}
+.fi5
+{
+    width:10px;
+    height:5px;
+    background-color: bisque;
+    position: absolute;
+    border-radius: 2px;
+    top:25px;
+    right:5px;
+}
+.ear1{
+    width: 20px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: bisque;
+    top:65px;
+    left:-13px;
+    z-index: 0;
+}
+.ear2{
+    width: 20px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: bisque;
+    top:65px;
+    left:143px;
+    z-index: 0;
+}
+.d1{
+    width:5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top:25px;
+    left:6px;
+    border: 1px solid black;
+}
+.d2{
+    width:5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top:25px;
+    left:6px;
+    border: 1px solid black;
+}

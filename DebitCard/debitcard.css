@@ -1,0 +1,85 @@
+.debit 
+{
+    height:250px;
+    width:400px;
+    border-radius:7%;
+    position: relative;
+    background-image: url("./debitcard.png");
+    background-size: cover;
+    font-family:'Arial', sans-serif;
+    
+}
+.Mas
+{
+    width:10px;
+    height:20px;
+    position: relative;
+    top:35px;
+    left:10px;
+    font-size:medium;
+    right:-20px;
+    font-weight:1000px;
+    font-size: x-large;
+}
+.Number
+{
+position: absolute;
+bottom:70px;
+right:233px;
+font-size: medium;
+font-weight: 600;
+}
+.Name{
+    position: absolute;
+    bottom:20px;
+    right:280px;
+    font-weight: 600;
+}
+.ex{
+    position: absolute;
+    bottom:37px;
+    right:350px;
+    font-weight: 600;
+}
+.val
+{
+    position: absolute;
+    top:182px;
+    font-size: x-small;
+    right:330px;
+}
+.chip{
+    background-image: url("./chip.jpg");
+    height:40px;
+    width:50px;
+    position: absolute;
+    top:100px;
+    left:30px;
+    background-size: cover;
+    border-radius: 10%;;
+}
+.c1
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:red;
+    position: absolute;
+    bottom:20px;
+    right:20px;
+}
+.c2
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:#ff9500;
+    position: absolute;
+    bottom:20px;
+    right:40px;
+}
+.n{
+    position: absolute;
+    top:145px;
+    right:20px;
+}

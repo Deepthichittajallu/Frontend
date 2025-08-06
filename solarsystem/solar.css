@@ -1,0 +1,178 @@
+body{
+    width: 100%;
+    height:100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.sun
+{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-image: url("https://spaceplace.nasa.gov/gallery-sun/en/solar-flare.en.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.orbit{
+    width:150px;
+    height:150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 4s linear infinite;
+}
+.mercury{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-image: url("https://media.istockphoto.com/id/499771042/photo/mercury-in-colour.jpg?s=612x612&w=0&k=20&c=1BerGIwehIUaWi7YfD6e_-TM8oFbFPvUwhTZ04O3e-Q=");
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.orbit1{
+    width:250px;
+    height:250px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 6s linear infinite;
+}
+.venus{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/RifjtkFLBEFgzkZqWEh69P.jpg");
+    background-size: cover;
+    position: absolute;
+    object-fit: cover;
+    top:100%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.orbit2{
+    width: 350px;
+    height:350px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 8s linear infinite;
+}
+.earth{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg?cs=srgb&dl=pexels-pixabay-87651.jpg&fm=jpg");
+    background-size: cover;
+    position: absolute;
+    object-fit: cover;
+    top:50%;
+    right:100%;
+    transform: translate(50%,-50%);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.orbit3{
+    width: 450px;
+    height:450px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 10s linear infinite;
+}
+.mars{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdhm996HgbAXSu-WOufVptaTzFAeomPpM-3w&s");
+    background-size: cover;
+    position: absolute;
+    object-fit: cover;
+    top:50%;
+    left:90%;
+    transform: translate(50%,-50%);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.orbit4{
+    width: 550px;
+    height:550px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 12s linear infinite;
+}
+.jupiter{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("https://cdn.esahubble.org/archives/images/screen/heic2017a.jpg");
+    background-size: cover;
+    position: absolute;
+    object-fit: cover;
+    top:20%;
+    right:90%;
+    transform: translate(50%,-50%);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.orbit5{
+    width: 650px;
+    height:650px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    animation: rotate 14s linear infinite;
+}
+.saturn{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    background-image: url("https://cdn.esahubble.org/archives/images/wallpaper5/heic2312a.jpg");
+    background-size: cover;
+    position: absolute;
+    object-fit: cover;
+    top:20%;
+    left:81%;
+    transform: translate(50%,-50%);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@keyframes rotate {
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
